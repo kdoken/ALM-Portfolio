@@ -29,27 +29,28 @@ It supports both **structured** (e.g., annuities, lump sums) and **custom** cash
    ```bash
    git clone https://github.com/kdoken/ALM-Portfolio.git
    cd ALM-Portfolio
-Create and activate a virtual environment:
+   ```
 
-bash
-Copy code
-python -m venv .venv
-source .venv/bin/activate   - macOS/Linux
-.venv\Scripts\activate    - Windows
-Install dependencies:
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # macOS/Linux
+   .venv\Scripts\activate     # Windows
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+3. Install dependencies
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+4. Usage
 To launch the Streamlit interface:
 
-bash
-Copy code
-streamlit run ui.py
-Then open the provided local URL (typically http://localhost:8501) in your browser.
+  ```bash
+   streamlit run ui.py
+  ```
 
-##Project Structure
+## Project Structure
 graphql
 Copy code
 ALM-Portfolio/
@@ -60,7 +61,7 @@ ALM-Portfolio/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 
-##Example Capabilities
+## Example Capabilities
 Construct portfolios containing multiple asset and liability types
 
 Evaluate duration mismatches and rate sensitivity for ALM studies
@@ -71,12 +72,14 @@ Explore rate models with time-dependent delta functions
 
 Serve as a self-contained environment for testing actuarial and financial concepts
 
-##Purpose
+## Purpose
 This project was developed as part of my continued learning in financial mathematics, quantitative analysis, and actuarial modeling.
 It serves both as a learning exercise and as a technical demonstration for employers and collaborators—illustrating skills in Python, Streamlit, data analysis, and applied finance.
 
-##Author
+## Author
 K. Doken
+
 Double Major in Physics & Applied Mathematics – UC Berkeley
+
 Focused on actuarial, quantitative, and data-driven financial modeling
 GitHub: github.com/kdoken
